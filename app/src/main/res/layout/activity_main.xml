@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="279dp"
         android:background="#232425"
         app:layout_constraintBottom_toTopOf="@+id/email"
@@ -94,6 +94,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textInputLayout5"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/senha"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/googlelogo" />
 
     <ImageButton
@@ -131,7 +132,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="159dp"
         android:layout_marginLeft="159dp"
