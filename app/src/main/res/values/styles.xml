@@ -6,6 +6,68 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerItemStyle</item>
+    </style>
+
+    <style name="DigitalPlayLogoFont">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <style name="DigitalPlayLogoFontMinor">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:lineSpacingMultiplier">1.29</item>
+    </style>
+
+    <style name="FormItemHeader" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="FormItemField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#1E1E1E</item>
+    </style>
+
+    <style name="FormButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#1E1E1E</item>
+        <item name="android:textColor">@color/textHeaderColor</item>
+    </style>
+
+    <style name="SpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#1E1E1E</item>
+        <item name="android:textColor">@color/textHeaderColor</item>
     </style>
 
 </resources>

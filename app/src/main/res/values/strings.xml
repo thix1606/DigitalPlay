@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DigitalPlay</string>
+    <string name="registerActivityName">Nome</string>
+    <string name="registerActivityEmail">E-mail</string>
+    <string name="registerActivityGender">Gênero</string>
+    <string name="registerActivityPass">Senha</string>
+    <string name="registerActivitySave">Salvar</string>
+    <string name="populateAllFields">Preencha todos os campos</string>
+    <string name="everythingOK">OK</string>
+    <string name="checkPass">Senhas não coincidem</string>
 </resources>
